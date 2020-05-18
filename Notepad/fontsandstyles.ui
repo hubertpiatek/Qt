@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FontsAndStyles</class>
+ <widget class="QDialog" name="FontsAndStyles">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>535</width>
+    <height>348</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Select your font and style of text</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FontColor</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Background Color</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>80</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Font Size</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>80</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bold</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>120</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>80</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Italic</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>120</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Default</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Green</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Red</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Yellow</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blue</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>120</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Default</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Red</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Green</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Blue</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Black</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>120</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>30</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>32</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>36</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>80</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>UnderLine</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>120</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QDialogButtonBox" name="buttonBox">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>260</y>
+     <width>167</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::DefaultContextMenu</enum>
+   </property>
+   <property name="standardButtons">
+    <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+   </property>
+   <property name="centerButtons">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
